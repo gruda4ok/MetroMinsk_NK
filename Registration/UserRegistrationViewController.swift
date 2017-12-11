@@ -142,20 +142,40 @@ class UserRegistrationViewController: UIViewController, UITextFieldDelegate , FB
     }
     
     func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!) {
-        //let userMail = String(describing: FBSDKProfile.current().linkURL)
+        let userLink = FBSDKProfile.current().linkURL
+        var values = [String: AnyObject]()
+        let link = String(describing: userLink!)
+        values = ["email" : link as AnyObject]
+        
         let credential = FacebookAuthProvider.credential(withAccessToken: FBSDKAccessToken.current().tokenString)
         Auth.auth().signIn(with: credential) { (user, error) in
         
             if user != nil {
                 self.performSegue(withIdentifier: "menuSegue", sender: nil)
-            }else{
-                let userRef = self.ref.child((user?.uid)!)
-                userRef.setValue(["email": user?.email])
-        }
-        print("Succsesslly loggned in with facebook")
+            }
+            
     }
-    
+         //self.registerUserIntoDatabase(uid: user, values: values)
 }
+    
+    
+    func registerUserIntoDatabase(uid: String, values: [String : AnyObject]) {
+                let reference = Database.database().reference()
+                let usersReference = reference.child("users").child(uid)
+                usersReference.updateChildValues(values, withCompletionBlock: {[weak self] (err, ref) in
+        
+                    if err != nil {
+                        print(err!)
+                        return
+                    }
+        
+                    guard let strongSelf = self else { return }
+                   // let user = User(dictionary: values)
+    
+                })
+            }
+
+
     func loginButtonDidLogOut(_ loginButton: FBSDKLoginButton!) {
         print("Did log out of facebook")
 }
