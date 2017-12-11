@@ -29,7 +29,7 @@ class AutoTimetableViewController: UIViewController, UITableViewDelegate, UITabl
     }
     
     
-    
+    // MARK: Timer
     @objc func runTimedCode(){
         print("4")
     }
