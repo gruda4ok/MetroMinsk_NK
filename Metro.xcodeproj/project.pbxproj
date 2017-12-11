@@ -7,21 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450877891FB88EE300563B99 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450877881FB88EE300563B99 /* Ticket.swift */; };
 		454561A21FAC9D7400B1D405 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454561A11FAC9D7400B1D405 /* AppDelegate.swift */; };
-		454561A41FAC9D7400B1D405 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454561A31FAC9D7400B1D405 /* ViewController.swift */; };
-		454561A71FAC9D7400B1D405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454561A51FAC9D7400B1D405 /* Main.storyboard */; };
 		454561A91FAC9D7400B1D405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454561A81FAC9D7400B1D405 /* Assets.xcassets */; };
 		454561AC1FAC9D7400B1D405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454561AA1FAC9D7400B1D405 /* LaunchScreen.storyboard */; };
+		454D39491FC246CB00375E5C /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454D39481FC246CB00375E5C /* PassKit.framework */; };
+		4554A5231FB904FB00F998F4 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4554A5221FB904FB00F998F4 /* Users.swift */; };
+		458DBD121FBB1060009F074B /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458DBD111FBB1060009F074B /* EmailTextField.swift */; };
+		45C381CB1FBFB9E5000A6030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C381CA1FBFB9E5000A6030 /* Main.storyboard */; };
+		45C9E13A1FDF163000EE2340 /* UserRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9E1391FDF163000EE2340 /* UserRegistrationViewController.swift */; };
+		45C9E13C1FDF166D00EE2340 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9E13B1FDF166C00EE2340 /* MenuTableViewCell.swift */; };
+		45C9E13E1FDF167200EE2340 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9E13D1FDF167200EE2340 /* MenuViewController.swift */; };
+		45C9E1401FDF168300EE2340 /* TicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9E13F1FDF168300EE2340 /* TicketViewController.swift */; };
+		45C9E1421FDF168900EE2340 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9E1411FDF168900EE2340 /* ViewController.swift */; };
+		45C9E1441FDF169A00EE2340 /* ShemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9E1431FDF169A00EE2340 /* ShemeViewController.swift */; };
+		45C9E14B1FDF16A800EE2340 /* MoscowlLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9E1451FDF16A700EE2340 /* MoscowlLineViewController.swift */; };
+		45C9E14C1FDF16A800EE2340 /* TimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9E1461FDF16A700EE2340 /* TimeTableViewController.swift */; };
+		45C9E14D1FDF16A800EE2340 /* MoscokLineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9E1471FDF16A800EE2340 /* MoscokLineTableViewCell.swift */; };
+		45C9E14E1FDF16A800EE2340 /* AutoLineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9E1481FDF16A800EE2340 /* AutoLineTableViewCell.swift */; };
+		45C9E14F1FDF16A800EE2340 /* AutoTimetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9E1491FDF16A800EE2340 /* AutoTimetableViewController.swift */; };
+		45C9E1501FDF16A800EE2340 /* AutoLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9E14A1FDF16A800EE2340 /* AutoLineViewController.swift */; };
+		45F41FF41FDE81B900CAE849 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45F41FF31FDE81B900CAE849 /* GoogleService-Info.plist */; };
+		DC93D9CF25F95F7E44A224B6 /* Pods_Metro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C8AFD401A9E53564130FCA /* Pods_Metro.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		450877881FB88EE300563B99 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		452266EC1FC1DE1C00D55C33 /* ios_development.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = ios_development.cer; path = ../../../../Downloads/ios_development.cer; sourceTree = "<group>"; };
 		4545619E1FAC9D7400B1D405 /* Metro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		454561A11FAC9D7400B1D405 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		454561A31FAC9D7400B1D405 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		454561A61FAC9D7400B1D405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		454561A81FAC9D7400B1D405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		454561AB1FAC9D7400B1D405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		454561AD1FAC9D7400B1D405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		454D39481FC246CB00375E5C /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		4554A5221FB904FB00F998F4 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		458DBD111FBB1060009F074B /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		45C31C811FC1E5A60044E2ED /* Metro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Metro.entitlements; sourceTree = "<group>"; };
+		45C381CA1FBFB9E5000A6030 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		45C9E1391FDF163000EE2340 /* UserRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserRegistrationViewController.swift; path = Registration/UserRegistrationViewController.swift; sourceTree = SOURCE_ROOT; };
+		45C9E13B1FDF166C00EE2340 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuTableViewCell.swift; path = Metro/Controller/Menu/MenuTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		45C9E13D1FDF167200EE2340 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = Metro/Controller/Menu/MenuViewController.swift; sourceTree = SOURCE_ROOT; };
+		45C9E13F1FDF168300EE2340 /* TicketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TicketViewController.swift; path = Metro/Controller/Ticket/TicketViewController.swift; sourceTree = SOURCE_ROOT; };
+		45C9E1411FDF168900EE2340 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Metro/Controller/Ticket/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		45C9E1431FDF169A00EE2340 /* ShemeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShemeViewController.swift; path = Metro/Controller/Sheme/ShemeViewController.swift; sourceTree = SOURCE_ROOT; };
+		45C9E1451FDF16A700EE2340 /* MoscowlLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoscowlLineViewController.swift; path = Metro/Controller/Timetable/MoscowlLineViewController.swift; sourceTree = SOURCE_ROOT; };
+		45C9E1461FDF16A700EE2340 /* TimeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeTableViewController.swift; path = Metro/Controller/Timetable/TimeTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		45C9E1471FDF16A800EE2340 /* MoscokLineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoscokLineTableViewCell.swift; path = Metro/Controller/Timetable/MoscokLineTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		45C9E1481FDF16A800EE2340 /* AutoLineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoLineTableViewCell.swift; path = Metro/Controller/Timetable/AutoLineTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		45C9E1491FDF16A800EE2340 /* AutoTimetableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoTimetableViewController.swift; path = Metro/Controller/Timetable/AutoTimetableViewController.swift; sourceTree = SOURCE_ROOT; };
+		45C9E14A1FDF16A800EE2340 /* AutoLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoLineViewController.swift; path = Metro/Controller/Timetable/AutoLineViewController.swift; sourceTree = SOURCE_ROOT; };
+		45F41FF31FDE81B900CAE849 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		98C8AFD401A9E53564130FCA /* Pods_Metro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Metro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BA4BC8CADE0443CA4AA77E /* Pods-Metro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Metro/Pods-Metro.debug.xcconfig"; sourceTree = "<group>"; };
+		C625B99C41882F9EACF210F7 /* Pods-Metro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metro.release.xcconfig"; path = "Pods/Target Support Files/Pods-Metro/Pods-Metro.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +67,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				454D39491FC246CB00375E5C /* PassKit.framework in Frameworks */,
+				DC93D9CF25F95F7E44A224B6 /* Pods_Metro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4508778C1FB88F0D00563B99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				450877881FB88EE300563B99 /* Ticket.swift */,
+				4554A5221FB904FB00F998F4 /* Users.swift */,
+				458DBD111FBB1060009F074B /* EmailTextField.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		454561951FAC9D7400B1D405 = {
 			isa = PBXGroup;
 			children = (
 				454561A01FAC9D7400B1D405 /* Metro */,
 				4545619F1FAC9D7400B1D405 /* Products */,
+				F512C0E9D55CA1E1693AB45E /* Pods */,
+				C49660375519DCA515ECB59F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +106,111 @@
 		454561A01FAC9D7400B1D405 /* Metro */ = {
 			isa = PBXGroup;
 			children = (
-				454561A11FAC9D7400B1D405 /* AppDelegate.swift */,
-				454561A31FAC9D7400B1D405 /* ViewController.swift */,
-				454561A51FAC9D7400B1D405 /* Main.storyboard */,
-				454561A81FAC9D7400B1D405 /* Assets.xcassets */,
-				454561AA1FAC9D7400B1D405 /* LaunchScreen.storyboard */,
+				45C31C811FC1E5A60044E2ED /* Metro.entitlements */,
+				45F41FF31FDE81B900CAE849 /* GoogleService-Info.plist */,
 				454561AD1FAC9D7400B1D405 /* Info.plist */,
+				452266EC1FC1DE1C00D55C33 /* ios_development.cer */,
+				4508778C1FB88F0D00563B99 /* Model */,
+				4554A5241FB907EA00F998F4 /* View */,
+				455106D01FB5D24D00D63537 /* Controller  */,
+				455106CE1FB5D22300D63537 /* Supporting files */,
 			);
 			path = Metro;
+			sourceTree = "<group>";
+		};
+		455106CE1FB5D22300D63537 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				454561AA1FAC9D7400B1D405 /* LaunchScreen.storyboard */,
+				454561A11FAC9D7400B1D405 /* AppDelegate.swift */,
+				454561A81FAC9D7400B1D405 /* Assets.xcassets */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		455106D01FB5D24D00D63537 /* Controller  */ = {
+			isa = PBXGroup;
+			children = (
+				45DD49ED1FCE5CF000FA033C /* Registration */,
+				45DD49EE1FCE5D0400FA033C /* Menu */,
+				45DD49EF1FCE5D1100FA033C /* Ticket */,
+				45DD49F11FCE5D4200FA033C /* Sheme */,
+				45DD49F01FCE5D2C00FA033C /* Timetable */,
+			);
+			path = "Controller ";
+			sourceTree = "<group>";
+		};
+		4554A5241FB907EA00F998F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45C381CA1FBFB9E5000A6030 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		45DD49ED1FCE5CF000FA033C /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				45C9E1391FDF163000EE2340 /* UserRegistrationViewController.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		45DD49EE1FCE5D0400FA033C /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				45C9E13D1FDF167200EE2340 /* MenuViewController.swift */,
+				45C9E13B1FDF166C00EE2340 /* MenuTableViewCell.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		45DD49EF1FCE5D1100FA033C /* Ticket */ = {
+			isa = PBXGroup;
+			children = (
+				45C9E1411FDF168900EE2340 /* ViewController.swift */,
+				45C9E13F1FDF168300EE2340 /* TicketViewController.swift */,
+			);
+			path = Ticket;
+			sourceTree = "<group>";
+		};
+		45DD49F01FCE5D2C00FA033C /* Timetable */ = {
+			isa = PBXGroup;
+			children = (
+				45C9E1481FDF16A800EE2340 /* AutoLineTableViewCell.swift */,
+				45C9E14A1FDF16A800EE2340 /* AutoLineViewController.swift */,
+				45C9E1491FDF16A800EE2340 /* AutoTimetableViewController.swift */,
+				45C9E1471FDF16A800EE2340 /* MoscokLineTableViewCell.swift */,
+				45C9E1451FDF16A700EE2340 /* MoscowlLineViewController.swift */,
+				45C9E1461FDF16A700EE2340 /* TimeTableViewController.swift */,
+			);
+			path = Timetable;
+			sourceTree = "<group>";
+		};
+		45DD49F11FCE5D4200FA033C /* Sheme */ = {
+			isa = PBXGroup;
+			children = (
+				45C9E1431FDF169A00EE2340 /* ShemeViewController.swift */,
+			);
+			path = Sheme;
+			sourceTree = "<group>";
+		};
+		C49660375519DCA515ECB59F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				454D39481FC246CB00375E5C /* PassKit.framework */,
+				98C8AFD401A9E53564130FCA /* Pods_Metro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F512C0E9D55CA1E1693AB45E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9BA4BC8CADE0443CA4AA77E /* Pods-Metro.debug.xcconfig */,
+				C625B99C41882F9EACF210F7 /* Pods-Metro.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 454561B01FAC9D7400B1D405 /* Build configuration list for PBXNativeTarget "Metro" */;
 			buildPhases = (
+				C377111EE941A8CCB22BEA37 /* [CP] Check Pods Manifest.lock */,
 				4545619A1FAC9D7400B1D405 /* Sources */,
 				4545619B1FAC9D7400B1D405 /* Frameworks */,
 				4545619C1FAC9D7400B1D405 /* Resources */,
+				0ADDFDF7E61C4CA52BAF30A0 /* [CP] Embed Pods Frameworks */,
+				E2F77B40E13B8FC6673CC45B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +249,23 @@
 					4545619D1FAC9D7400B1D405 = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplePay = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.Wallet = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -124,34 +293,115 @@
 			buildActionMask = 2147483647;
 			files = (
 				454561AC1FAC9D7400B1D405 /* LaunchScreen.storyboard in Resources */,
+				45F41FF41FDE81B900CAE849 /* GoogleService-Info.plist in Resources */,
 				454561A91FAC9D7400B1D405 /* Assets.xcassets in Resources */,
-				454561A71FAC9D7400B1D405 /* Main.storyboard in Resources */,
+				45C381CB1FBFB9E5000A6030 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ADDFDF7E61C4CA52BAF30A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Metro/Pods-Metro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Metro/Pods-Metro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C377111EE941A8CCB22BEA37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Metro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2F77B40E13B8FC6673CC45B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Metro/Pods-Metro-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Metro/Pods-Metro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4545619A1FAC9D7400B1D405 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				454561A41FAC9D7400B1D405 /* ViewController.swift in Sources */,
+				45C9E14C1FDF16A800EE2340 /* TimeTableViewController.swift in Sources */,
+				45C9E14B1FDF16A800EE2340 /* MoscowlLineViewController.swift in Sources */,
+				45C9E1501FDF16A800EE2340 /* AutoLineViewController.swift in Sources */,
+				450877891FB88EE300563B99 /* Ticket.swift in Sources */,
+				45C9E14E1FDF16A800EE2340 /* AutoLineTableViewCell.swift in Sources */,
+				45C9E14F1FDF16A800EE2340 /* AutoTimetableViewController.swift in Sources */,
+				45C9E13C1FDF166D00EE2340 /* MenuTableViewCell.swift in Sources */,
+				45C9E13A1FDF163000EE2340 /* UserRegistrationViewController.swift in Sources */,
 				454561A21FAC9D7400B1D405 /* AppDelegate.swift in Sources */,
+				45C9E1421FDF168900EE2340 /* ViewController.swift in Sources */,
+				458DBD121FBB1060009F074B /* EmailTextField.swift in Sources */,
+				45C9E13E1FDF167200EE2340 /* MenuViewController.swift in Sources */,
+				45C9E1441FDF169A00EE2340 /* ShemeViewController.swift in Sources */,
+				45C9E1401FDF168300EE2340 /* TicketViewController.swift in Sources */,
+				4554A5231FB904FB00F998F4 /* Users.swift in Sources */,
+				45C9E14D1FDF16A800EE2340 /* MoscokLineTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		454561A51FAC9D7400B1D405 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				454561A61FAC9D7400B1D405 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		454561AA1FAC9D7400B1D405 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,31 +522,35 @@
 		};
 		454561B11FAC9D7400B1D405 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9BA4BC8CADE0443CA4AA77E /* Pods-Metro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Metro/Metro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HKAXF3ZJ7Y;
+				DEVELOPMENT_TEAM = 62W9CK9HS5;
 				INFOPLIST_FILE = Metro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "by.it-academy.Metro";
+				PRODUCT_BUNDLE_IDENTIFIER = "by.it-academy.MetroMinska";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		454561B21FAC9D7400B1D405 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C625B99C41882F9EACF210F7 /* Pods-Metro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Metro/Metro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HKAXF3ZJ7Y;
+				DEVELOPMENT_TEAM = 62W9CK9HS5;
 				INFOPLIST_FILE = Metro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "by.it-academy.Metro";
+				PRODUCT_BUNDLE_IDENTIFIER = "by.it-academy.MetroMinska";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
