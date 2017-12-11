@@ -163,7 +163,7 @@ class UserRegistrationViewController: UIViewController, UITextFieldDelegate , FB
 //            guard let strongSelf = self else { return }
 //            if let loginError = error {
 //                print("Failed to login to Firebase via \(type): \(loginError)")
-//                return
+//               ,,,, return
 //            }
 //            let reference = Database.database().reference().child("users")
 //            reference.observe(.value, with: { (snapshot) in
