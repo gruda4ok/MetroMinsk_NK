@@ -12,7 +12,7 @@ import FBSDKLoginKit
 
 class UserRegistrationViewController: UIViewController, UITextFieldDelegate , FBSDKLoginButtonDelegate{
     
-    
+
     //Мобильные приложения
     //В диалоге "О программе" и упомянуть Icons8 в описании App Store или Google Play.
     var ref: DatabaseReference!
@@ -142,19 +142,22 @@ class UserRegistrationViewController: UIViewController, UITextFieldDelegate , FB
     }
     
     func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!) {
-
+        //let userMail = String(describing: FBSDKProfile.current().linkURL)
         let credential = FacebookAuthProvider.credential(withAccessToken: FBSDKAccessToken.current().tokenString)
         Auth.auth().signIn(with: credential) { (user, error) in
-
+        
+            if user != nil {
+                self.performSegue(withIdentifier: "menuSegue", sender: nil)
+            }else{
+                let userRef = self.ref.child((user?.uid)!)
+                userRef.setValue(["email": user?.email])
         }
         print("Succsesslly loggned in with facebook")
     }
-
+    
+}
     func loginButtonDidLogOut(_ loginButton: FBSDKLoginButton!) {
         print("Did log out of facebook")
-    }
-    
-    
 }
 
 //fileprivate extension UserRegistrationViewController {
@@ -268,4 +271,4 @@ class UserRegistrationViewController: UIViewController, UITextFieldDelegate , FB
 //    }
 //}
 //
-
+}
